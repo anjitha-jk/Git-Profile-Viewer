@@ -64,7 +64,7 @@ find() {
 
 
 getProduct() {
-  return this.http.get('https://api.github.com/users/' + this.username + '?access_token=a30877fda8fd70ce110fe4128bd4dec124f0c1c9');
+  return this.http.get('https://api.github.com/users/' + this.username);
 }
 
 }
